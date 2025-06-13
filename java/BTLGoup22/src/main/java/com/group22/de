@@ -1,0 +1,30 @@
+Một nhà hàng tiệc cưới cần quản lý việc cho thuê sảnh cưới, các dịch vụ cho thuê, các thức
+ăn uống được đặt ở từng bửa tiệc. Một sảnh tiệc cưới bao gồm thông tin mã sảnh cưới (là
+chuỗi bắt đầu bằng S và tiếp theo là 3 chữ số tăng dần theo số lượng sảnh đã được tạo,
+chẳng hạn S001, S002, …), tên sảnh cưới, vị trí sảnh cưới (tầng 1, 2), sức chứa (bao nhiêu
+bàn), giá thuê khác nhau từng thời điểm (phân làm sáng, chiều, tối ngày thường và sáng,
+chiều, tối ngày thứ bảy chủ nhật, tuỳ vào cửa hàng có thể thêm thông tin thời điểm khác).
+
+Một menu cho mỗi bàn ăn bao gồm thức ăn và thức uống. Mỗi thức ăn có mã thức ăn (số
+nguyên tăng dần), tên món ăn, giá, có ăn chay được không. Mỗi thức uống có mã thức uống
+(số nguyên tăng dần), tên thức uống, giá, hãng sản xuất.
+
+Nhà hàng có nhiều dịch vụ dịch vụ đi kèm bao gồm dịch vụ karaoke, trang trí phối cảnh
+theo yêu cầu, mời ca sĩ. Mỗi dịch vụ bao gồm mã dịch vụ, tên dịch vụ, giá dịch vụ. Ngoài
+ra, dịch vụ karaoke có thêm thông tin khoảng thời gian thuê, dịch vụ thuê ca sĩ có thông tin
+ca sĩ muốn thuê, số lượng bài hát yêu cầu. Chương trình thiết kế dễ dàng thêm các dịch vụ
+mới, hạn chế sửa mã nguồn đã có.Mỗi bửa tiệc phải chọn một menu cho mỗi bàn, và có thể
+chọn nhiều dịch vụ đi kèm.
+
+Các chức năng chính chương trình
+- Quản lý thông tin sảnh cưới: thêm, cập nhật, xoá sảnh cưới, tra cứu sảnh cưới theo tên
+sảnh, sức chứa và vị trí sảnh.
+- Quản lý thông tin dịch vụ: thêm, cập nhật, xoá, tra cứu dịch vụ theo tên dịch vụ.
+- Quản lý thông tin thức ăn, thức uống: thêm, cập nhật, xoá, tra cứu thức ăn, thức uống.
+- Cho thuê sảnh, thông tin thuê bao gồm tên buổi tiệc, sảnh thuê, đơn giá thuê sảnh, thời
+điểm thuê (sáng, chiều, tối), ngày thuê, các menu thức ăn lựa chọn cho mỗi bàn, đơn
+giá menu, các dịch vụ đính kèm, đơn giá.
+- Sắp xếp danh sách các sảnh giảm dần theo tấn số được thuê sử dụng, yêu cầu hiện tên
+sảnh và số lần được đặt thuê, cho phép tra cứu theo năm.
+- Xuất hoá đơn thanh toán.
+- Báo cáo doanh thu theo tháng và quý.
